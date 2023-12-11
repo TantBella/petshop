@@ -1,4 +1,4 @@
-Bellas Labb1, Typescript och testning
+Bellas Labb2, Typescript och testning
 
 <!-- # React + TypeScript + Vite
 
