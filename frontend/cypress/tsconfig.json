@@ -1,0 +1,9 @@
+// import dns from "dns"
+// dns.setDefaultResultOrder("ipv4first")
+
+{
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

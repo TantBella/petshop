@@ -1,0 +1,149 @@
+:root {
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+  color-scheme: light dark;
+  color: rgba(32, 32, 32, 0.87);
+  background-color: rgba(255, 248, 243, 0.938);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  background-color: rgba(249, 239, 235, 0.509);
+}
+
+img {
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 5rem;
+}
+
+/* .main {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.petlist {
+  border: solid 2px rgba(155, 153, 160, 0.372);
+}
+
+li {
+  list-style: none;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.linkStyle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+a {
+  background-color: #f7eaf3dc;
+  border: solid 2px rgba(155, 153, 160, 0.372);
+  padding: 1rem;
+  color: #343434;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgba(190, 159, 149, 0.721);
+}
+
+h1,
+p,
+li {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+}
+
+input {
+  background-color: rgba(66, 65, 73, 0.833);
+  color: rgb(223, 222, 234);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 0.3rem;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+@media (min-width: 831px) {
+  .navStyle {
+    position: sticky;
+    top: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .linkStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkStyle > li {
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 2px rgba(155, 153, 160, 0.372);
+    background-color: #f7eaf3dc;
+  }
+
+  .navStyle {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    border: none;
+  }
+}
